@@ -18,6 +18,8 @@ class App < Sinatra::Base
     erb = :results
   end 
 end 
+
+params[:name]
  
 # Add your post route and action below
 
