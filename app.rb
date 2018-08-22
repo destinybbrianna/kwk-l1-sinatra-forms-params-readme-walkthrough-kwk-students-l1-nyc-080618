@@ -25,11 +25,5 @@ class App < Sinatra::Base
 end 
  
 # Add your post route and action below
-describe 'POST /results' do 
-    it 'responds with a 200' do
-      post '/results'
-
-      expect(last_response.status).to eq(200)
-    end
 
  
