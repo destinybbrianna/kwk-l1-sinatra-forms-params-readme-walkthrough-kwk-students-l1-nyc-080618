@@ -15,7 +15,7 @@ class App < Sinatra::Base
     @yesorno = params[:yesorno]
     
   end 
-  post '/results' do 
+  post '/results':age do 
     @age = params[:age]
   end 
   
