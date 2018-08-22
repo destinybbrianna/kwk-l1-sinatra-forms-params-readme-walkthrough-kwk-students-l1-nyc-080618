@@ -1,7 +1,7 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-  get '/fortune' do 
+  get '/' do 
     erb :fortune
   end 
   
