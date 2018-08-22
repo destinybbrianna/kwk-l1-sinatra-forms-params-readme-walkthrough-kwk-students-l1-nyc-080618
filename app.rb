@@ -7,7 +7,7 @@ class App < Sinatra::Base
   
   post '/results' do 
    "Hello #{params[:name]}! It is a good day to be a #{params[:sign]}, for other requests or private tarot readings please contact me at destinyfortuneteller@gmail.com!"
-  
+  erb :results
   end 
   
   post '/results' do 
