@@ -12,9 +12,9 @@ class App < Sinatra::Base
   
   post '/results' do 
     @name =  params[:name] 
-    @sign = params[:sign]
-    @yesorno = params[:yesorno]
-    @age = params[:age]
+    @name = params[:sign]
+    @name = params[:yesorno]
+    @name = params[:age]
     erb = :results
   end 
 end 
