@@ -5,8 +5,9 @@ class App < Sinatra::Base
     erb :fortune
   end 
   
-  get '/results' do 
-   "Hello #{@name}! It is a good day to be a #{@sign}, for other requests or private tarot readings please contact me at destinyfortuneteller@gmail.com!"
+  post '/results' do 
+   "Hello #{@name[:name]}! It is a good day to be a #{@sign[:sign]}, for other requests or private tarot readings please contact me at destinyfortuneteller@gmail.com!"
+  
   end 
   
   post '/results' do 
