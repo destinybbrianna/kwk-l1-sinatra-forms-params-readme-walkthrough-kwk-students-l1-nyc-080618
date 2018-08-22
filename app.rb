@@ -10,7 +10,7 @@ class App < Sinatra::Base
   end 
   
   post '/results' do 
-    @name = #{params[:name]}
+    @name =  params[:name] 
     @sign = params[:sign]
     @yesorno = params[:yesorno]
     
