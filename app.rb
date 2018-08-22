@@ -13,10 +13,11 @@ class App < Sinatra::Base
     @name =  params[:name] 
     @sign = params[:sign]
     @yesorno = params[:yesorno]
-    
+    erb = :results
   end 
   post '/results' do 
     @age = params[:age]
+    erb = :results
   end 
   
   
