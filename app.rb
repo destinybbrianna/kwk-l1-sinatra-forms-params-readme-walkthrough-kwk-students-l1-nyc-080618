@@ -16,9 +16,6 @@ class App < Sinatra::Base
    @age = params[:age]
     erb = :results
   end 
- 
-  
-  
 end 
  
 # Add your post route and action below
