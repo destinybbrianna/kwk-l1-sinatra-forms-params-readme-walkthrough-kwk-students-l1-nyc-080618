@@ -13,7 +13,8 @@ class App < Sinatra::Base
     @name =  params[:name] 
     @sign = params[:sign]
     @yesorno = params[:yesorno]
-   @age = params[:age]
+    @age = params[:age]
+    puts results.rb
     erb = :results
   end 
 end 
