@@ -20,7 +20,6 @@ class App < Sinatra::Base
 end 
 
 params[:name]
- 
 # Add your post route and action below
 
  
